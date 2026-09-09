@@ -1,44 +1,17 @@
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Terminal Tetris</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Terminal Tetris</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
- <main class="terminal">
-<section class="hud">
-<div>LINES: <span id="lines">0</span></div>
-<div>LEVEL: <span id="level">1</span></div>
-<div>SCORE: <span id="score">0</span></div>
-</section>
 
-<section class="game-wrap">
-<div id="board" class="board" aria-label="Tetris board"></div>
-
-<aside class="help">
-<div>7: LEFT &nbsp; 9: RIGHT</div>
-<div>A: LEFT &nbsp; D: RIGHT</div>
-<div>S: DROP FASTER</div>
-<div>TAP: ROTATE</div>
-<div>HOLD: FAST DROP</div>
-</aside>
-</section>
-
-<div id="message" class="message">W: ROTATE &nbsp; A/D: MOVE &nbsp; S: DOWN</div>
-
-<div class="mobile-controls" aria-label="Touch controls">
-<button data-control="right">RIGHT</button>
-<button data-control="left">LEFT</button>
-<button data-control="down">DOWN</button>
-<button data-control="rotate">ROTATE</button>
-</div>
-
-<button id="restart" class="restart">RESTART</button>
-</main>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
-
